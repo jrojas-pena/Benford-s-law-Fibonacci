@@ -11,17 +11,17 @@ The program consists of two functions: fibonacci() and countFirstDigit().
 
 This program requires the following:
 
-    Python 3.x
-    datetime module
-    math module
+   - Python 3.x
+   - datetime module
+   - math module
 
 # How to use
 
-    Open a Python environment or a text editor that can run Python code.
-    Copy and paste the code into the environment or editor.
-    Run the program.
-    When prompted, enter a number.
-    The program will output whether or not the first digit of each number in the Fibonacci sequence up to the entered number follows Benford's law, as well as the time it took to run both functions.
+   - Open a Python environment or a text editor that can run Python code.
+   - Copy and paste the code into the environment or editor.
+   - Run the program.
+   - When prompted, enter a number.
+   - The program will output whether or not the first digit of each number in the Fibonacci sequence up to the entered number follows Benford's law, as well as the time it took to run both functions.
 
 # Functions
 ## fibonacci(arr, num)
