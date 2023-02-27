@@ -21,7 +21,7 @@ This program requires the following:
    - Copy and paste the code into the environment or editor.
    - Run the program.
    - When prompted, enter a number.
-   - The program will output whether or not the first digit of each number in the Fibonacci sequence up to the entered number follows Benford's law, as well as the time it took to run both functions.
+   - The program will output the count of each digit in the first digit of each number in the Fibonacci sequence up to the entered number, as well as the time it took to run both functions.
 
 # Functions
 ## fibonacci(arr, num)
