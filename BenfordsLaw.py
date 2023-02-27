@@ -1,6 +1,12 @@
 from datetime import datetime
 import math
+import matplotlib.pyplot as pyplot
+import numpy as np
+from matplotlib import colors
+from matplotlib.ticker import PercentFormatter
 
+
+# Will return an array with the numbers in the Fibonacci sequence of size of num
 def fibonacci(arr, num):
     start2 = datetime.now()
     arr.append(1)
@@ -12,7 +18,7 @@ def fibonacci(arr, num):
     return arr
 
     
-
+# Counts the amount of times a specific digit appears as the first digit on the numbers inside the array (arr)
 def countFirstDigit(arr):
     Dict = {}
     start1 = datetime.now()
@@ -28,6 +34,7 @@ def countFirstDigit(arr):
     for i in Dict:
         print("% d : % d"%(i[0], i[1]))
 
+# Returns the first n digits in num
 def first_n_digits(num, n):
     return num // 10 ** (int(math.log10(num)) - n + 1)
     
