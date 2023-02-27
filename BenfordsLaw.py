@@ -2,8 +2,6 @@ from datetime import datetime
 import math
 import matplotlib.pyplot as plt
 import numpy as np
-#from matplotlib import colors
-#from matplotlib.ticker import PercentFormatter
 
 
 # Will return an array with the numbers in the Fibonacci sequence of size of num
