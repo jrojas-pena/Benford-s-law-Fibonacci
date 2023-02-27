@@ -46,7 +46,4 @@ arrFib = []
 
 num = int(input("Enter a number:"))
 arrFib = fibonacci(arrFib, num)
-#print(arrFib[num-1])
-
-#print(arrFib)
 graphResults(countFirstDigit(arrFib))
