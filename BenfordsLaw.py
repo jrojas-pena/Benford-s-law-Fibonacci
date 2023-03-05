@@ -43,6 +43,6 @@ arrFib = []
 num = int(input("Enter a number:"))
 start = datetime.now()
 arrFib = fibonacci(arrFib, num)
-graphResults(arrFib)
 end = datetime.now()
+graphResults(arrFib)
 print("It took %.03f seconds"%((end-start).total_seconds()))
