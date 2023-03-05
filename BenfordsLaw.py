@@ -26,25 +26,7 @@ def fibonacci(arr, num):
         print("% d : % d"%(i[0], i[1]))
     return digitsDict
 
-    
-# # Counts the amount of times a specific digit appears as the first digit on the numbers inside the array (arr)
-# def countFirstDigit(arr):
-#     # Dictionary of digits
-#     digitsDict = {}
 
-#     for item in arr:    
-#         firstDigit = first_n_digits(item, 1)
-#         if firstDigit in digitsDict:
-#             digitsDict[firstDigit] += 1
-#         else:
-#             digitsDict[firstDigit] = 1
-
-#     digitsDict = sorted(digitsDict.items(), key=lambda x: x[1], reverse=True)
-#     for i in digitsDict:
-#         print("% d : % d"%(i[0], i[1]))
-#     return digitsDict
-
-# Returns the first n digits in num
 def first_n_digits(num, n):
     return num // 10 ** (int(math.log10(num)) - n + 1)
 
