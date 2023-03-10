@@ -21,19 +21,19 @@ def fibonacci(arr, num):
         arr[1] = next  
     
     
-    digitsDict = sorted(digitsDict.items(), key=lambda x: x[1], reverse=True)
-    for i in digitsDict:
+    digitsArr = sorted(digitsDict.items(), key=lambda x: x[1], reverse=True)
+    for i in digitsArr:
         print("% d : % d"%(i[0], i[1]))
-    return digitsDict
+    return digitsArr
 
 
 def first_n_digits(num, n):
     return num // 10 ** (int(math.log10(num)) - n + 1)
 
-def graphResults(digitsDict):
+def graphResults(digitsArr):
     fig = plt.figure()
     ax = fig.add_subplot(1, 1, 1)
-    ax.bar(range(1, 10), list(map(lambda x: x[1], digitsDict)), color='tab:blue')
+    ax.bar(range(1, 10), list(map(lambda x: x[1], digitsArr)), color='tab:blue')
 
     plt.show()
 
