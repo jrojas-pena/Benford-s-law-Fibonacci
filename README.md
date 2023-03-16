@@ -53,3 +53,9 @@ $\text{first n digits} = \lfloor\frac{num}{10^{\left\lfloor\log_{10} num\right\r
 For example, if num is 12345 and n is 3, the function would return the first three digits of the number, which is 123.
 
 The function returns the first n digits of the given number.
+
+## Results
+
+The program was used to calculate the first 100,000 numbers in the Fibonacci sequence and the frequency distribution of their first digits was analyzed. The results showed that the observed frequency distribution closely followed Benford's law, which is a phenomenon observed in many naturally occurring sets of numerical data. This indicates that the first digits in the Fibonacci sequence exhibit a pattern consistent with Benford's law.
+
+![Figure 1.](Figure_1.png)
